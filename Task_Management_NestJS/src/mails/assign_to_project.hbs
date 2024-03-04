@@ -1,0 +1,39 @@
+<div
+  style='
+          max-width: 700px;
+          margin: auto;
+          border: 10px solid #ddd;
+          padding: 50px 20px;
+          font-size: 110%;
+        '
+>
+  <h2 style='text-align: center; text-transform: uppercase; color: teal'>
+    Welcome to Task Management System.
+  </h2>
+  <div style='font-size: 1.3rem'>
+    <p>You are successfully assigned to project </p>
+    <p>Refer below mentioned task details</p>
+    <div
+      style='
+              max-width: 500;
+              margin: 5px;
+              border: 5px solid white;
+              padding: 14px 25px;
+              font-size: large;
+            '
+    >
+      <p>Project name : {{assign_to_project.project_name}}</p>
+      <p>Project code :{{assign_to_project.project_code}}</p>
+        <p>From :{{assign_to_project.from_date}}</p>
+      <p>To :{{assign_to_project.to_date}}</p>
+      <p>Assigned by : {{assign_to_project.assigned_by}}
+      </p>
+
+    </div>
+    <p style='color: #455056; font-size: 15px; line-height: 24px; margin: 0'>
+      If you have any questions, just reply to this email
+      <span style='color: #4a35ea'> admin@gmail.com </span>
+      we're always happy to help out.
+    </p>
+  </div>
+</div>

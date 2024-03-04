@@ -1,0 +1,10 @@
+npm install @fortawesome/fontawesome-free -D
+npm install material-design-icons-iconfont -D
+npm i axios
+npm i vue-toast-notification
+# start project
+npm run serve
+npm i vuetify-image-input
+
+
+npm install moment --save
